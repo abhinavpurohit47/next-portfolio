@@ -1,9 +1,5 @@
-export const index = () => {
-  return (
-    <div>
-      <h1 className="text-blue-300">Bye Bye</h1>
-    </div>
-  );
+const About = () => {
+  return <div>ABOUT</div>;
 };
 
-export default index;
+export default About;
