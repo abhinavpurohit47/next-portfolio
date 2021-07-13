@@ -3,14 +3,22 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily:{
-      kaushan:['Kaushan Script'],
+      kaushan:['Playfair Display'],
     },
     extend: {
       colors:{
-        green:{
-          DEFAULT:'#00f260'
+        purple:{
+          light:'DOBDF4',
+          DEFAULT:'#845BB3',
+          dark:'#494D5F'
         },
-      },
+        blue:{
+        light:'#AOD2EB',
+        DEFAULT:'#OO49B7',
+        dark:'39AOCA'
+      },  
+      },   
+      
     },
   },
   variants: {

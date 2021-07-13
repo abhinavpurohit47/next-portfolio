@@ -6,13 +6,14 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
-            href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap"
             rel="stylesheet"
           />
         </Head>
-        <body className="bg-gradient-to-r from-green to-blue-400 ">
+        <body className="bg-fixed bg-gradient-to-r from-purple to-purple-dark dark:from-black-500 dark:to-black-700">
           <Main />
           <NextScript />
         </body>
