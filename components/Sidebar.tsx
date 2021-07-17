@@ -12,7 +12,7 @@ const Sidebar = () => {
   };
   return (
     <>
-      {/* <Image
+      <Image
         src="https://www.flickr.com/photos/193398002@N06/51288197164/in/dateposted-public/"
         alt="avatar"
         className="mx-auto border rounded-full "
@@ -20,19 +20,19 @@ const Sidebar = () => {
         width="128px"
         layout="intrinsic"
         quality="100"
-      /> */}
+      />
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
-        <span className="text-green-400 ">Abhinav</span>{" "}
-        <span className="text-gray-600">Purohit</span>
+        <span className="text-purple ">Abhinav</span>{" "}
+        <span className="text-gray-600 dark:text-gray-200">Purohit</span>
       </h3>
-      <p className="px-2 py-1 my-3 text-gray-200 bg-gray-400 rounded-full dark:bg-black-500">
+      <p className="px-2 py-1 my-3 text-gray-200 bg-gray-600 rounded-full dark:bg-black-500">
         Full Stack Developer
       </p>
       {/* Resume */}
       <a
         href="/assets/Abhinav's Resume.pdf"
         download="Abhinav's Resume.pdf"
-        className="flex items-center justify-center px-2 py-1 my-2 text-gray-200 bg-gray-400 rounded-full cursor-pointer dark:bg-black-500"
+        className="flex items-center justify-center px-2 py-1 my-2 text-gray-200 bg-gray-600 rounded-full cursor-pointer dark:bg-black-500"
       >
         <GiTie className="w-6 h-6" />
         <span>Download Resume</span>

@@ -4,7 +4,7 @@ class MyDocument extends Document {
   render() {
     console.log("document");
     return (
-      <Html lang="en">
+      <Html lang="en" className="dark">
         <Head>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />

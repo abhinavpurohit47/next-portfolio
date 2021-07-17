@@ -134,5 +134,24 @@ export const projects: IProject[] = [
       "Authorization System And Chat System for Shipping Business",
     key_techs: ["React", "Redux", "API", "TailwindCSS"],
   },
+    {
+    name: "To DO List",
+    image_path: "/images/Todo.png",
+    deployed_url: "https://abhinavpurohit47.github.io/To-Do-List/",
+    github_url: "https://github.com/abhinavpurohit47/To-Do-List",
+    category: ["basic"],
+    description:
+      "To Do list to help you maintain a record of what to do in near future with all necessary features",
+    key_techs: ["HTML","CSS","JavaScript"],
+  },
+   {
+    name: "Simon Game",
+    image_path: "/images/download.png",
+    deployed_url: "https://abhinavpurohit47.github.io/Simon-Game/",
+    github_url: "https://github.com/abhinavpurohit47/Simon-Game",
+    category: ["basic"],
+    description:"The device creates a series of tones and lights and requires a user to repeat the sequence. If the user succeeds, the series becomes progressively longer and more complex. Once the user fails, the game is over. Both strict mode and the normal mode have been provided in the game.",
+    key_techs: ["HTML","CSS","JavaScript"],
+  },
 ];
 

@@ -23,21 +23,27 @@ const ExperienceCard: FunctionComponent<{ experience: Experience }> = ({
     //     <p>{about}</p>
     //   </div>
     // </div>
-    <div className="md:justify-center md:w-full ">
-      <div className="flex flex-col w-full">
-        <span className="flex flex-row text-blue-500">
-          <Icon className="w-6 h-5 mx-2 my-1 text-green" />
-          <h2 className="justify-center font-bold text-pink-600 align-center">
-            {title}
-          </h2>
-        </span>
-        <div className="flex flex-row justify-between m-2">
-          <h4 className="flex flex-row float-left font-medium text-gray-500">
-            {organization}
-          </h4>
-          <h4 className="float-right font-normal">{from}</h4>
+    <div className="bg-gray-100">
+      <div className=" md:justify-center md:w-full dark:bg-gray-800">
+        <div className="flex flex-col w-full dark:bg-gray-700">
+          <span className="flex flex-row text-blue-500 dark:text-red-100">
+            <Icon className="w-6 h-5 mx-2 my-1 " />
+            <h2 className="justify-center font-bold text-pink-600 dark:text-gray-300 align-center">
+              {title}
+            </h2>
+          </span>
+          <div className="flex flex-row justify-between m-2">
+            <h4 className="flex flex-row float-left font-medium text-pink-600 dark:text-gray-300">
+              {organization}
+            </h4>
+            <h4 className="float-right font-normal text-pink-600 dark:text-gray-300">
+              {from}
+            </h4>
+          </div>
+          <span className="font-normal text-gray-700 dark:text-white">
+            {about}
+          </span>
         </div>
-        <span className="font-normal text-gray-700">{about}</span>
       </div>
     </div>
   );

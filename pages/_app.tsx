@@ -3,21 +3,23 @@ import Sidebar from "../components/Sidebar";
 import "../styles/globals.css";
 
 import { ThemeProvider } from "next-themes";
+import router from "next/router";
+import { AnimatePresence } from "framer-motion";
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps, router }) {
   return (
     <ThemeProvider attribute="class">
       <div className="grid grid-cols-12 gap-6 px-5 my-14 lg:mb-0 md:mb-16 sm:px-20 md:px-32 lg:px-36 xl:px-48 ">
-        {/* // do this div style later (after putting the content) */}
-        <div className="h-full col-span-12 p-4 text-base text-center bg-white dark:bg-dark-500 lg:col-span-3 rounded-2xl shadow-custom-light dark:shadow-custom-dark ">
-          {/* //!sidebar */}
+        <div className="h-full col-span-12 p-4 text-base text-center bg-white dark:bg-gray-700 lg:col-span-3 rounded-2xl shadow-custom-light dark:shadow-custom-dark ">
           <Sidebar />
         </div>
-        <div className="flex flex-col col-span-12 overflow-hidden bg-white shadow-custom-light dark:shadow-custom-dark rounded-2xl lg:col-span-9 dark:bg-dark-500">
-          {/* //!navbar */}
+        <div className="flex flex-col col-span-12 overflow-hidden bg-white shadow-custom-light dark:shadow-custom-dark rounded-2xl lg:col-span-9 dark:bg-gray-700">
           <Navbar />
-          {/* //!about */}
-          <Component {...pageProps} />
+          <AnimatePresence exitBeforeEnter>
+            <div className="flex flex-col overflow-hidden bg-white dark:bg-gray-700">
+              <Component {...pageProps} key={router.route} />
+            </div>
+          </AnimatePresence>
         </div>
       </div>
     </ThemeProvider>
