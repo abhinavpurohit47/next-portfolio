@@ -125,6 +125,7 @@ export const tools: Skill[] = [
 
 export const projects: IProject[] = [
   {
+    id: 1,
     name: "Project Mercury",
     image_path: "/images/football.png",
     deployed_url: "https://mercury-auth.vercel.app/",
@@ -135,6 +136,7 @@ export const projects: IProject[] = [
     key_techs: ["React", "Redux", "API", "TailwindCSS"],
   },
     {
+      id: 2,
     name: "To DO List",
     image_path: "/images/Todo.png",
     deployed_url: "https://abhinavpurohit47.github.io/To-Do-List/",
@@ -145,6 +147,7 @@ export const projects: IProject[] = [
     key_techs: ["HTML","CSS","JavaScript"],
   },
    {
+     id: 3,
     name: "Simon Game",
     image_path: "/images/download.png",
     deployed_url: "https://abhinavpurohit47.github.io/Simon-Game/",

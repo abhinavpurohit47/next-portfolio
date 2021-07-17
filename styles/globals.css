@@ -4,3 +4,12 @@
 @tailwind utilities;
 
 /* TODO use tailwind */
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to right bottom, #845bb3, #494d5f);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 0px;
+}
