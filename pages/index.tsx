@@ -24,9 +24,9 @@ const About: NextPage = () => {
       className="flex flex-col flex-grow px-6 pt-1 bg-gray-500 dark:bg-gray-500"
     >
       <h6 className="p-3 my-3 text-base font-medium text-gray-300 border-4 dark:bg-gray-700 rounded-2xl border-gray-50">
-        I'm obsessed with making things and even more obsessed with making
+        I &apos; obsessed with making things and even more obsessed with making
         things better. I love helping people with branding and marketing
-        stratergy. When I'm not designing, I'm probably watching or playing
+        stratergy. When I &apos; not designing, I &apos; probably watching or playing
         cricket or messing around on something inspired by Mr.Ratan Tata.
       </h6>
       <div
