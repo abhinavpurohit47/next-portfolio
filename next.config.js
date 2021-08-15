@@ -1,5 +1,5 @@
 module.exports = {
   images: {
-    domains: ["www.flickr.com"],
+    domains: ["s3.ap-south-1.amazonaws.com"],
   },
 };

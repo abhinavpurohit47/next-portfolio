@@ -13,7 +13,7 @@ const Sidebar = () => {
   return (
     <>
       <Image
-        src="https://www.flickr.com/photos/193398002@N06/51288197164/in/dateposted-public/"
+        src="/images/Profile.jpg"
         alt="avatar"
         className="mx-auto border rounded-full "
         height="128px"
