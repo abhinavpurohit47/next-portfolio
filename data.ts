@@ -125,18 +125,41 @@ export const tools: Skill[] = [
 
 export const projects: IProject[] = [
   {
-    id: 1,
+    id: 2,
     name: "Project Mercury",
-    image_path: "/images/football.png",
+    image_path: "/images/Mercury.png",
     deployed_url: "https://mercury-auth.vercel.app/",
     github_url: "https://github.com/abhinavpurohit47/Mercury-Auth",
-    category: ["react"],
+    category: ["react","Tailwind"],
     description:
       "Authorization System And Chat System for Shipping Business",
-    key_techs: ["React", "Redux", "API", "TailwindCSS"],
+    key_techs: ["React", "Jwt", "API", "TailwindCSS"],
   },
+  {
+    id: 1,
+    name: "Project Disseminator",
+    image_path: "/images/Disseminator.png",
+    deployed_url: "https://disseminator-frontend.vercel.app/",
+    github_url: "https://github.com/abhinavpurohit47/Disseminator_frontend",
+    category: ["mongo","react","next","Tailwind"],
+    description:
+      "Disseminator App allows you to share your files in an easier way.You can send your files through emails and also download the recieved files",
+    key_techs: ["React", "Mongo", "API", "TailwindCSS"],
+  },
+  {
+    id: 3,
+  name: "Touchless-Sanitizer",
+  image_path: "/images/Touchless.png",
+  deployed_url: "https://touchlesssanitizer.herokuapp.com/",
+  github_url: "https://github.com/sai-surya-rali/Arduino-Sanitizer-Dispenser",
+  category: ["basic","Tailwind"],
+  description:
+    "This webapp consists the demo of the working of the touchless-sanitizer and other info.",
+  key_techs: ["HTML","CSS","JavaScript"],
+},
+  
     {
-      id: 2,
+      id: 5,
     name: "To DO List",
     image_path: "/images/Todo.png",
     deployed_url: "https://abhinavpurohit47.github.io/To-Do-List/",
@@ -147,7 +170,7 @@ export const projects: IProject[] = [
     key_techs: ["HTML","CSS","JavaScript"],
   },
    {
-     id: 3,
+     id: 4,
     name: "Simon Game",
     image_path: "/images/download.png",
     deployed_url: "https://abhinavpurohit47.github.io/Simon-Game/",
