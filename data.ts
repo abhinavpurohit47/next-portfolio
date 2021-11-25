@@ -5,6 +5,7 @@ import { FcAdvertising } from "react-icons/fc";
 import { FaGraduationCap } from "react-icons/fa";
 import { BsCircleFill } from "react-icons/bs";
 import { IProject } from "./type";
+import {IAccomplishments} from "./type";
 
 
 
@@ -13,14 +14,14 @@ export const experiences: Experience[] = [
     {
         Icon: RiComputerLine,
         title: "Software Development Member",
-        from:"Jun-2021 - Present",
+        from:"Jul 2021 - Nov 2021",
         organization:"Tech Analogy",
         about:"•	Collaborated with multi-disciplinary teams of developers, designers, and clients on a daily basis.",
     },
     {
         Icon: FaServer,
         title: "Web Developer",
-        from:"Feb 2021 - Present",
+        from:"Feb 2021 - Nov 2021",
         organization:"Aakash Research Labs",
         about:" •	Develop and maintain code for in-house and client websites primarily using React.js, Tailwindcss, Node.js and JavaScript.",
     },
@@ -77,7 +78,7 @@ export const languages: Skill[] = [
    {
     Icon: BsCircleFill,
     name: "SQL",
-    level: "50",
+    level: "60",
   },
      {
     Icon: BsCircleFill,
@@ -122,7 +123,9 @@ export const tools: Skill[] = [
     level: "45",
   },
 ];
-
+export const accomplishments:IAccomplishments[] =[
+  
+];
 export const projects: IProject[] = [
   {
     id: 2,
