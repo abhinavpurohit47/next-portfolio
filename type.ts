@@ -15,7 +15,11 @@ export interface Skill {
   name: string;
   level: string;
 }
-
+export interface IAccomplishments {
+  id:number;
+  name:string;
+  image_path:string;
+}
 export interface IProject {
   id:number;
   name: string;
