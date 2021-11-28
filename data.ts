@@ -90,16 +90,7 @@ export const languages: Skill[] = [
     name: "BootstrapCSS",
     level: "80",
   },
-  //    {
-  //   Icon: BsCircleFill,
-  //   name: "SQL",
-  //   level: "50",
-  // },
-  //    {
-  //   Icon: BsCircleFill,
-  //   name: "SQL",
-  //   level: "50",
-  // },
+
 ];
 export const tools: Skill[] = [
   {
@@ -124,7 +115,20 @@ export const tools: Skill[] = [
   },
 ];
 export const accomplishments:IAccomplishments[] =[
-  
+  {
+  id:11,
+  name:"Tech Analogy",
+  image_path:"/images/TA-Certificate.png",
+  description:"Internship certificate of Tech Analogy",
+    type:["internship"]
+},
+{
+id:12,
+name:"Elixar",
+image_path:"/images/abhinav-elixir internship certificate.jpg",
+description:"Internship certificate of Elixar",
+  type:["internship"]
+},
 ];
 export const projects: IProject[] = [
   {
