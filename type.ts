@@ -19,6 +19,8 @@ export interface IAccomplishments {
   id:number;
   name:string;
   image_path:string;
+  description:string;
+  type: Type[];
 }
 export interface IProject {
   id:number;
@@ -30,5 +32,6 @@ export interface IProject {
   category: Category[];
   key_techs: string[];
 }
+export type Type = "internship" | "certifications" | "hackathons";
 
 export type Category = "react" | "node" | "express" | "basic" | "mongo" |"next" | "Tailwind";

@@ -1,7 +1,8 @@
 import { useState } from "react";
 import AccomplishmentCard from "../components/AccomplishmentCard";
-import { accomplishments as accomplishmentdata, accomplishments } from "../data";
+import { accomplishments as accomplishmentdata } from "../data";
 import { motion } from "framer-motion";
+import { Type } from "../type";
 import { fadeInUp, routeAnimation, stagger } from "../animations";
 
 const Accomplishments = () => {
@@ -9,7 +10,19 @@ const Accomplishments = () => {
   const [active, setActive] = useState("all");
   const [showDetail, setShowDetail] = useState<number | null>(null);
 
+  const handlerFilterCategory = (type: Type | "all") => {
+    if (type === "all") {
+      setAccomplishments(accomplishmentdata);
+      setActive(type);
+      return;
+    }
 
+    const newArray = accomplishmentdata.filter((project) =>
+      project.type.includes(type)
+    );
+    setAccomplishments(newArray);
+    setActive(type);
+  };
   return (
     <motion.div
       variants={routeAnimation}
