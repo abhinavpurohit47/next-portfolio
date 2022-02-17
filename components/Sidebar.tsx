@@ -31,7 +31,7 @@ const Sidebar = () => {
       {/* Resume */}
       <a
         href="/assets/Resume.pdf"
-        download="Abhinav's Resume.pdf"
+        download="Resume.pdf"
         className="flex items-center justify-center px-2 py-1 my-2 text-gray-200 bg-gray-600 rounded-full cursor-pointer dark:bg-black-500"
       >
         <GiTie className="w-6 h-6" />
