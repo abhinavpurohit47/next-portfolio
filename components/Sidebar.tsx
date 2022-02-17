@@ -30,7 +30,7 @@ const Sidebar = () => {
       </p>
       {/* Resume */}
       <a
-        href="/assets/Abhinav's Resume.pdf"
+        href="/assets/Resume.pdf"
         download="Abhinav's Resume.pdf"
         className="flex items-center justify-center px-2 py-1 my-2 text-gray-200 bg-gray-600 rounded-full cursor-pointer dark:bg-black-500"
       >
