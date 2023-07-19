@@ -129,10 +129,39 @@ image_path:"/images/abhinav-elixir internship certificate.jpg",
 description:"Internship certificate of Elixar",
   type:["internship"]
 },
+{
+id :13,
+name:"SIH",
+image_path:"/images/SIH.png",
+description:"Certificate for first round of Smart India Hackathon",
+type:["hackathons"]
+},
+{
+  id:14,
+  name:"HACKON",
+  image_path:"/images/hackon.png",
+  description:"Certificate for HackOn Hacakthon",
+  type:["hackathons"]
+},
+{
+  id:15,
+  name:"National Engineering Olympiad",
+  image_path:"/images/neo.png",
+  description:"Certificate for NEO-5",
+  type:["certifications"]
+},
+{
+  id:16,
+  name:"Advanced Excel Tutorial",
+  image_path:"/images/excel.png",
+  description:"Certificate for completion of Advanced Excel Tutorial by Elearnmarkets",
+  type:["certifications"]
+}
+
 ];
 export const projects: IProject[] = [
   {
-    id: 2,
+    id: 7,
     name: "Project Mercury",
     image_path: "/images/Mercury.png",
     deployed_url: "https://mercury-auth.vercel.app/",
@@ -144,6 +173,17 @@ export const projects: IProject[] = [
   },
   {
     id: 1,
+    name: "Invest Yaar",
+    image_path: "/images/Investyaar.png",
+    deployed_url: "https://invest-yaar.vercel.app/",
+    github_url: "https://github.com/abhinavpurohit47/invest_yaar",
+    category: ["react","Tailwind"],
+    description:
+      "A crypto tracker with variety of features",
+    key_techs: ["React", "API", "TailwindCSS"],
+  },
+  {
+    id: 2,
     name: "Project Disseminator",
     image_path: "/images/Disseminator.png",
     deployed_url: "https://disseminator-frontend.vercel.app/",

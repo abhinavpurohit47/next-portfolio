@@ -13,7 +13,7 @@ const Sidebar = () => {
   return (
     <>
       <Image
-        src="/images/Profile.jpg"
+        src="/images/DP.JPG"
         alt="avatar"
         className="mx-auto border rounded-full "
         height="128px"
@@ -26,18 +26,17 @@ const Sidebar = () => {
         <span className="text-gray-600 dark:text-gray-200">Purohit</span>
       </h3>
       <p className="px-2 py-1 my-3 text-gray-200 bg-gray-600 rounded-full dark:bg-black-500">
-        Full Stack Developer
+        Software Developer
       </p>
       {/* Resume */}
-      <a
-        href="/assets/Resume.pdf"
-        download="Resume.pdf"
-        className="flex items-center justify-center px-2 py-1 my-2 text-gray-200 bg-gray-600 rounded-full cursor-pointer dark:bg-black-500"
+      <a className="flex items-center justify-center px-2 py-1 my-2 text-gray-200 bg-gray-600 rounded-full cursor-pointer dark:bg-black-500"
+      href="assets/Abhinav_Resume.pdf" title="" download
+        
       >
         <GiTie className="w-6 h-6" />
         <span>Download Resume</span>
       </a>
-
+     
       {/* Socials */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-purple md:w-full ">
         <a href="https://www.instagram.com/purohit.abhinav01/">
